@@ -5,19 +5,19 @@ function calculaIdade(anos) {
 }
 
 const pessoa1 = {
-	nome: 'Amelia',
-	idade: 23,
+	nome: 'Vinicius',
+	idade: 30,
 };
 
 const pessoa2 = {
-	nome: 'Márcia',
+	nome: 'Lais',
 	idade: 20,
 };
 
 const pessoa3 = {
 	nome: 'Jonas',
-	idade: 13,
+	idade: 10,
 };
 
-console.log(calculaIdade.call(pessoa3, 40));
-console.log(calculaIdade.apply(pessoa2, [24]));
+console.log(calculaIdade.call(pessoa2, 40));
+console.log(calculaIdade.apply(pessoa1, [24]));
